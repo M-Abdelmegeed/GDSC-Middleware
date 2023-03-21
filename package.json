@@ -8,9 +8,8 @@
     "start": "nodemon index.js",
     "build": "",
     "serve": "firebase serve",
-    "shell": "firebase functions:shell",
     "deploy": "firebase deploy",
-    "logs": "firebase functions:log"
+    "logs": "firebase :log"
   },
   "author": "Mohammed Abdelmegeed",
   "license": "ISC",
