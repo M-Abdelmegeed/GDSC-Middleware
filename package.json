@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "",
+    "serve": "firebase serve",
+    "shell": "firebase functions:shell",
+    "deploy": "firebase deploy",
+    "logs": "firebase functions:log"
   },
   "author": "Mohammed Abdelmegeed",
   "license": "ISC",
