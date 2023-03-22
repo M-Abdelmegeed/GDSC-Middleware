@@ -1,5 +1,4 @@
 const express = require("express"); // express application
-const functions = require("firebase-functions");
 require("dotenv").config(); // use the env variables
 const mongoose = require("mongoose");
 const router = require("./routes/index.routes"); // used to handle routes
@@ -35,5 +34,3 @@ app.get("/", function (req, res) {
 app.use((req, res) => {
   res.status(404).send("Error: routes doesn't exist (-_-)");
 });
-
-exports.app = functions.https.onRequest(app);
