@@ -36,4 +36,4 @@ app.use((req, res) => {
   res.status(404).send("Error: routes doesn't exist (-_-)");
 });
 
-// exports.app = functions.https.onRequest(app);
+exports.app = functions.https.onRequest(app);
